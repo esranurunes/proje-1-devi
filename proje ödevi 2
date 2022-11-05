@@ -1,0 +1,34 @@
+proje 2 odev
+
+#  Proje-2
+###  [16,21,11,8,12,22] -> Sıralamayı Birleştir
+
+####  1. Aşağıdaki tipte sınıflandırma göre adımlarını adımlarını gösterir.
+ ## dizimizi#### hedefimiz dizimizi#### bölüyoruz . Bölünen dizileri tekrar bölüyoruz. Tek elemanlarımız devam ediyoruz.
+
+| | | | | | | | | | | | | |
+|---------------------------------------------------------- |- |- |- |- |- |- |- |- |- |- |- |- |
+|Diziyi servisleri bölerek yeniden yazıyoruz | | | |16|21|11|8 |12|22| | | |
+| | | | | | | | | | | | | |
+|S ve sağdaki dizileri bölümlere ayırıyoruz. | | |16|21|11| | |8 |12|22| | |
+| | | | | | | | | | | | | |
+|Tek elemanlara kadar bir kez daha bölüyoruz. | |16|21| |11| | |8 | |12|22| |
+| | | | | | | | | | | | | |
+| |16| |21| |11| | |8 | |12| |22|
+
+
+######   Bölme işlemi bitikten sonra, tek elemanlı dizilerimizi ikili ikili birleştiriyoruz. Sıralı dizi elde edinceye kadar bu işi devam ettiriyoruz.
+
+| | | | | | | | | | | | | |
+|---------------------------------------------------------- |- |- |- |- |- |- |- |- |- |- |- |- |
+| |16| |21| |11| | |8 | |12| |22|
+| | | | | | | | | | | | | |
+|ikili ikili ikili sıralayarak birleştiriyoruz. | |16|21| |11| | |8 | |12|22| |
+| | | | | | | | | | | | | |
+|Tekrar ikili ikili sıralayarak birleştiriyoruz. | | |11|16|21| | |8 |12|22| | |
+| | | | | | | | | | | | | |
+|Son birleştirmede dizimizi elde ediyoruz. | | | |8 |11|12|16|21|22| | | |
+
+
+####  2. Big-O gösterimini yazın.
+Özyinelemeli bir işlevi için sürekli kendini çağırmak diziyi hep dağıtmaktadır. O(n *(log6)) --> O(6* (log6)) olacaktır.
