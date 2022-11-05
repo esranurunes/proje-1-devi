@@ -45,3 +45,4 @@ Veri setinin kullanımına yönelik olarak ortalama vaka kapsamına girer.
 2. Adım	3	7	5	8	2	9	4	15	6
 3. Adım	3	5	7	8	2	9	4	15	6
 4. Adım	3	5	7	8	2	9	4	15	6
+https://app.patika.dev/ezzra
